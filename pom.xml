@@ -20,6 +20,11 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>ru.yandex.qatools.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>2.10.0</version>
+            </dependency>
+            <dependency>
                 <groupId>io.qameta.allure</groupId>
                 <artifactId>allure-bom</artifactId>
                 <version>${allure.version}</version>
@@ -110,4 +115,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
